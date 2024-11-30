@@ -1,0 +1,379 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Section */
+header {
+  background: #333;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  color: #ff6600;
+}
+
+header .logo img {
+  width: 150px;
+}
+
+header .nav-links {
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+
+header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+header .nav-links a:hover {
+  color: #ff6600;
+}
+
+header .menu-toggle {
+  display: none;
+  cursor: pointer;
+  float: right;
+}
+
+header .menu-toggle .bar {
+  width: 25px;
+  height: 4px;
+  margin: 5px;
+  background-color: white;
+}
+
+/* Home Section */
+.home {
+  padding: 50px 0;
+  text-align: center;
+  background: #fff;
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.home .product-slider .product {
+  display: inline-block;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.home .product-slider .product:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.home img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.home img:hover {
+  transform: scale(1.1);
+}
+
+/* Latest Products Section */
+.latest-products {
+  padding: 50px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.latest-products h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.latest-products .product-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.latest-products .product-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.latest-products img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.latest-products img:hover {
+  transform: scale(1.1);
+}
+
+.latest-products p {
+  font-size: 18px;
+}
+
+.latest-products span {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ff6600;
+}
+
+/* Products Section */
+.products {
+  padding: 50px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.products .product-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.products .product-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.products img {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.products img:hover {
+  transform: scale(1.1);
+}
+
+.products p {
+  font-size: 18px;
+}
+
+.products span {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ff6600;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 0;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.testimonial-slider .testimonial-item {
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-slider .testimonial-item:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+/* Brand Slider */
+.brands {
+  padding: 50px 0;
+  text-align: center;
+  background: #fff;
+}
+
+.brands img {
+  max-width: 150px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.brands img:hover {
+  transform: scale(1.05);
+}
+
+/* Offer Section */
+.offer {
+  padding: 50px 0;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.offer img {
+  width: 100%;
+  max-width: 500px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.offer img:hover {
+  transform: scale(1.05);
+}
+
+/* Newsletter Section */
+.newsletter {
+  padding: 50px 0;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 250px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.newsletter input:focus {
+  background-color: #ff6600;
+  outline: none;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: #ff6600;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.newsletter button:hover {
+  background: #e65c00;
+}
+
+/* Contact Section */
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.contact textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.contact button {
+  padding: 12px 20px;
+  background: #ff6600;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact button:hover {
+  background: #e65c00;
+}
+
+/* Footer Section */
+footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+footer .social-media a {
+  padding: 10px;
+}
+
+/* Mobile Menu */
+@media (max-width: 768px) {
+  header .nav-links {
+      display: none;
+      width: 100%;
+      text-align: center;
+  }
+
+  header .nav-links.active {
+      display: block;
+  }
+
+  header .menu-toggle {
+      display: block;
+  }
+
+  .home .product-slider .product {
+      width: 100%;
+  }
+
+  .latest-products .product-item {
+      width: 100%;
+  }
+
+  .products .product-item {
+      width: 100%;
+  }
+}
+.home{
+  span{
+    color:blue;
+  }
+}

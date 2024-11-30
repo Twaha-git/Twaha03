@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> <!-- Include the final combined JavaScript -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#latest-products">Latest Products</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#offer">Special Offers</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <h1>Welcome to <span>TWAHA'S </span>store</h1>
+        <P>Located at hoima central market</P>
+        <p>Find the best deals and products</p>
+        <div class="product-slider">
+            <div class="product">
+                <img src="img/P10.jpg" alt="Product 1">
+                <span>$49.99</span>
+            </div>
+            <div class="product">
+                <img src="img/P3.jpg" alt="Product 2">
+                <span>$59.99</span>
+            </div>
+            <!-- Add more products here -->
+        </div>
+    </section>
+
+    <!-- Latest Products Section -->
+    <section class="latest-products" id="latest-products">
+        <h2>Latest Products</h2>
+        <div class="product-item">
+            <img src="img/P12.jpg" alt="Product 3">
+          
+            <span>$29.99</span>
+        </div>
+        <div class="product-item">
+            <img src="img/P5.jpg" alt="Product 4">
+         
+            <span>$39.99</span>
+        </div>
+        <!-- Add more products here -->
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <h2>Our Products</h2>
+        <div class="product-item">
+            <img src="img/P6.jpg" alt="Product 5">
+            <p>Product Name</p>
+            <span>$89.99</span>
+        </div>
+        <div class="product-item">
+            <img src="img/P7.jpg" alt="Product 6">
+            <p>Product Name</p>
+            <span>$79.99</span>
+        </div>
+        <!-- Add more products here -->
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-item">
+                <img class="testimonial-img" src="img/C1.jpg" alt="Customer 1">
+                <p>"Great store! Highly recommend."</p>
+                <span>- Customer 1</span>
+            </div>
+            <div class="testimonial-item">
+                <img class="testimonial-img" src="img/TWH.jpg" alt="Customer 2">
+                <p>"Excellent products and customer service!"</p>
+                <span>- Customer 2</span>
+            </div>
+            <!-- Add more testimonials here -->
+        </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section class="offer" id="offer">
+        <h2>Special Offer</h2>
+        <img src="img/P2.jpg" alt="Special Offer">
+        <p>Get 20% off on your first purchase. Don't miss out!</p>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="subscribe.php" method="POST">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 TWAHA' STORE. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+        </div>
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
